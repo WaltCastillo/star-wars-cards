@@ -1,3 +1,36 @@
 /* 
     General Styles
 */
+.holder-text > h2 {
+    text-decoration: underline solid grey;
+    margin-top: 1em;
+}
+
+.learn-color > a {
+    color: white;
+}
+.learn-color {
+    background: black;
+}
+
+.property-under {
+    text-decoration: underline solid grey;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.fav-icn {
+    font-size: 2em;
+    color: #15f2fd;
+}
+
+.fav-button:active,
+.fav-button:hover {
+    border: 2px solid grey;
+}
+
+.red-saber {
+    background: grey;
+}
