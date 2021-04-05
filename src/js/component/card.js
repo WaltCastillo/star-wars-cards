@@ -7,11 +7,7 @@ export const Card = props => {
 	const { store, actions } = useContext(Context);
 	return (
 		<div className="card ml-3 mr-3" style={{ minWidth: "18rem" }}>
-			<img
-				className="card-img-top"
-				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaR4uWtQLnV3R-BoF3nVzsbW__XBg3XcipFA&usqp=CAU"
-				alt="Image Insert Here"
-			/>
+			<img className="card-img-top" src="https://wallpaperaccess.com/full/1223847.jpg" alt="Image Insert Here" />
 
 			<div className="card-body">
 				<h5 className="card-title property-under">{props.data.name}</h5>
@@ -36,7 +32,7 @@ export const Card = props => {
 						type="button"
 						className="btn fav-button"
 						onClick={() => actions.saveFavorites(props.data.name, "people")}>
-						<i className="far fa-heart fav-icn" />
+						<i className="fas fa-hand-holding-heart" />
 					</button>
 				</div>
 			</div>
